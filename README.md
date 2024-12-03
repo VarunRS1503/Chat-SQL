@@ -22,12 +22,15 @@ This is a Streamlit application that allows users to interact with SQL databases
 ## Installation
 
 1. Clone the repository:
-```bash```
+```bash
 git clone https://your-repository-url.git
 cd your-repository-name
+```
 
 2. Install required dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ## Configuration
 ### Database Setup
