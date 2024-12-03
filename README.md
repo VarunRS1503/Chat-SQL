@@ -30,10 +30,10 @@ cd your-repository-name
 pip install -r requirements.txt
 
 ## Configuration
-###Database Setup
+### Database Setup
 - For SQLite: Ensure student.db is in the project directory
 - For MySQL: Prepare your MySQL connection details
-###Groq API
+### Groq API
 - Obtain an API key from Groq
 
 ## Running the Application
