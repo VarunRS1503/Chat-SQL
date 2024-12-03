@@ -28,3 +28,38 @@ cd your-repository-name
 
 2. Install required dependencies:
 pip install -r requirements.txt
+
+## Configuration
+###Database Setup
+- For SQLite: Ensure student.db is in the project directory
+- For MySQL: Prepare your MySQL connection details
+###Groq API
+- Obtain an API key from Groq
+
+## Running the Application
+streamlit run app.py
+
+## Usage
+1. Select database type (SQLite or MySQL)
+2. Enter Groq API key
+3. For MySQL, provide connection details
+4. Start querying your database using natural language
+
+## Database Schema
+- NAME (VARCHAR)
+- CLASS (VARCHAR)
+- SECTION (VARCHAR)
+- MARKS (INT)
+
+## Technologies Used
+- Streamlit
+- LangChain
+- Groq AI
+- SQLAlchemy
+- SQLite/MySQL
+
+## License
+
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
